@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { AllPasswordComponent } from "../all-password/all-password.component";
 
 @Component({
   selector: 'app-login',
